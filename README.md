@@ -1,14 +1,16 @@
 # chia-toolbox
 
 ## hpool自动提现助手
-
+### 功能说明
+当前支持`oathtool`获取Google Authenticator验证码，获取token完成自动提现.使用telegram bot发送消息通知.
+### 必备条件
 1. 仅支持Linux系统运行
 2. 需使用Python3.8以上版本
 3. 需要手动完善请求头中的cookie
 4. Google Authenticator自动获取依赖`oathtool`工具以及绑定`Google Authenticator`时的备份key
 
 
-
+### 操作说明
 获取提现工具
 
 ```
